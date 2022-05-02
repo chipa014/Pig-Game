@@ -10,3 +10,5 @@ Functionality:
 As players take turns, both players use the same buttons to take actions. The active player is highlighted. At any point you can open the Rules. It doesn't reset the progress you made in the game. You can also reset the game at any point.
 
 The Rules button is an extra feature I created myself - it wasn't in the task. It could've resulted in an awkward HTML/CSS. At the moment of writing I'm just learning JavaScript though, so that's okay.
+
+Initial HTML/CSS by Jonas Schmedtmann.
