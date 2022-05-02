@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pig Game</title>
+  </head>
+  <body>
+    <main>
+      <section class="player player--0 player--active">
+        <h2 class="name" id="name--0">Player 1</h2>
+        <p class="score" id="score--0">0</p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current--0">0</p>
+        </div>
+      </section>
+      <section class="player player--1">
+        <h2 class="name" id="name--1">Player 2</h2>
+        <p class="score" id="score--1">0</p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current--1">0</p>
+        </div>
+      </section>
+
+      <div class="rules hidden">
+        <button class="close-rules">&times;</button>
+        <h1>📃 Rules:</h1>
+        <p>Each round a player can either <b>roll dice</b> or <b>hold</b>.</p>
+        <h2>🎲 Roll dice:</h2>
+        <p>If your roll is above 1, it gets added to your current score.</p>
+        <p>Roll a 1 – and you will lose your current score. And your turn.</p>
+        <p>Pretty devastating, huh? That is why you can also</p>
+        <h2>📥 Hold:</h2>
+        <p>When you hold, your current score is added to the total score.</p>
+        <p>
+          You still lose your turn, but hey. You can't have everything in life.
+        </p>
+        <h2>But how do I... You know, 🏆 win?</h2>
+        <p>The first player to reach a total score of 100 or above wins!</p>
+        <p>It's that simple!</p>
+      </div>
+      <img src="dice-5.png" alt="Playing dice" class="dice hidden" />
+      <button class="btn btn--new">🔄 New game</button>
+      <button class="btn btn--rules">📃 Rules</button>
+      <button class="btn btn--roll">🎲 Roll dice</button>
+      <button class="btn btn--hold">📥 Hold</button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
